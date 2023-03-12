@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #ddd;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-page-for-admin button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-page-for-admin button:hover {
+  background-color: #45a049;
+}
+
+.login-page-for-user {
+  display: none;
+}
+
+.login-page-for-user input[type=text], .login-page-for-user textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.login-page-for-user label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-page-for-user button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+
+.login-page-for-user button:hover {
+  background-color: #45a049;
+}
+
+.textarea-container {
+  position: relative;
+}
+
+.textarea-container label {
+  position: absolute;
+  top: -16px;
+  left: 20px;
+  background-color: white;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+.textarea-container textarea {
+  height: 150px;
+  resize: none;
+}
+
+.output {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #ddd;
+}
+
+.output .first-message {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 0;
+}
+
+.output p {
+  font-size: 20px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.output .output-value {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=style.css.map */
